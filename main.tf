@@ -10,3 +10,11 @@ resource "aws_instance" "example" {
     Name = "Webserver-2"
   }
 }
+
+resource "aws_instance" "example" {
+  ami           = "ami-047126e50991d067b"
+  instance_type = "t2.micro"
+  tags = {
+    Name = "Webserver-345"
+  }
+}
