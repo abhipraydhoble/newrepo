@@ -11,7 +11,7 @@ resource "aws_instance" "example" {
   }
 }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "demo" {
   ami           = "ami-047126e50991d067b"
   instance_type = "t2.micro"
   tags = {
